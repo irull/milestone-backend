@@ -1,0 +1,23 @@
+database phpMyAdmin
+
+milestone
+table : users
+id (PRIMARY) (AI)
+name (var)
+email (var)
+password (var)
+
+
+=================================
+
+
+LARAVEL
+
+controller (php artisan make:controller UserController) -> app-Http-Controllers
+
+API
+routes->api.php
+(diarahkan ke Route register dari function UserController)
+
+Models
+memuat model User.php, untuk menangani input ke db
